@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cuddly Moments Childcare LTD</title>
+
+<style>
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(135deg,#ffadad,#ffd6a5,#fdffb6,#caffbf,#9bf6ff,#a0c4ff,#bdb2ff,#ffc6ff);
+
+}
+
+/* HEADER */
+
+header {
+
+    background-color: #ff8fab;
+
+    text-align: center;
+
+    padding: 20px;
+
+    color: white;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+}
+
+/* NAV */
+
+nav {
+
+    background: #fcd5ce;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+nav a {
+
+    margin: 10px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    color: #333;
+
+}
+
+/* HERO */
+
+.hero {
+
+    position: relative;
+
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+
+    color: white;
+
+    padding: 120px 20px;
+
+    text-align: center;
+
+    overflow: hidden;
+
+}
+
+/* CLOUDS */
+
+.cloud {
+
+    position: absolute;
+
+    background: white;
+
+    border-radius: 50%;
+
+    animation: floatCloud 6s infinite ease-in-out;
+
+}
+
+.cloud:before,
+
+.cloud:after {
+
+    content: '';
+
+    position: absolute;
+
+    background: white;
+
+    border-radius: 50%;
+
+}
+
+.cloud1 {
+
+    width: 120px;
+
+    height: 60px;
+
+    top: 20px;
+
+    left: 10%;
+
+}
+
+.cloud1:before {
+
+    width: 70px;
+
+    height: 70px;
+
+    top: -30px;
+
+    left: 10px;
+
+}
+
+.cloud1:after {
+
+    width: 90px;
+
+    height: 90px;
+
+    top: -40px;
+
+    left: 40px;
+
+}
+
+.cloud2 {
+
+    width: 150px;
+
+    height: 70px;
+
+    top: 60px;
+
+    right: 10%;
+
+}
+
+.cloud2:before {
+
+    width: 80px;
+
+    height: 80px;
+
+    top: -30px;
+
+    left: 20px;
+
+}
+
+.cloud2:after {
+
+    width: 100px;
+
+    height: 100px;
+
+    top: -50px;
+
+    left: 60px;
+
+}
+
+@keyframes floatCloud {
+
+    0% {transform: translateX(0);}
+
+    50% {transform: translateX(30px);}
+
+    100% {transform: translateX(0);}
+
+}
+
+/* SECTIONS */
+
+.section {
+
+    padding: 40px;
+
+    text-align: center;
+
+}
+
+.box {
+
+    background: #ffffffcc;
+
+    margin: 15px auto;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    max-width: 800px;
+
+}
+
+/* SERVICES */
+
+.services {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+
+.service {
+
+    background: #ffe5ec;
+
+    margin: 10px;
+
+    padding: 20px;
+
+    width: 220px;
+
+    border-radius: 10px;
+
+}
+
+/* GALLERY */
+
+.gallery img {
+
+    width: 200px;
+
+    margin: 10px;
+
+    border-radius: 10px;
+
+}
+
+/* FORM */
+
+form input, form textarea {
+
+    width: 80%;
+
+    padding: 10px;
+
+    margin: 10px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ccc;
+
+}
+
+button {
+
+    background: #ff8fab;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    color: white;
+
+    font-size: 16px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background: #ff5d8f;
+
+}
+
+/* FOOTER */
+
+footer {
+
+    background: #ff8fab;
+
+    text-align: center;
+
+    padding: 15px;
+
+    color: white;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+🌈 Cuddly Moments Childcare LTD
+
+</header>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#">Services</a>
+
+<a href="#">Gallery</a>
+
+<a href="#">Enroll</a>
+
+<a href="#">Contact</a>
+
+</nav>
+
+<section class="hero">
+
+<div class="cloud cloud1"></div>
+
+<div class="cloud cloud2"></div>
+
+<h1>Welcome to Cuddly Moments</h1>
+
+<p>Where Little Hearts Grow & Shine 💖</p>
+
+</section>
+
+<section class="section">
+
+<div class="box">
+
+<h2>About Us</h2>
+
+<p>We provide a safe, loving and fun environment for children to learn and grow.</p>
+
+<p><strong>Owner:</strong> Sukhwinder S Gosal</p>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="service">Infant Care 👶</div>
+
+<div class="service">Toddler Programs 🧸</div>
+
+<div class="service">Preschool Learning 🎨</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1588072432836-e10032774350">
+
+<img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9">
+
+<img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30">
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="box">
+
+<h2>Enroll Now</h2>
+
+<form>
+
+<input type="text" placeholder="Parent Name" required><br>
+
+<input type="text" placeholder="Child Name" required><br>
+
+<input type="email" placeholder="Email" required><br>
+
+<textarea placeholder="Message"></textarea><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="box">
+
+<h2>Contact</h2>
+
+<p><strong>Owner:</strong> Sukhwinder S Gosal</p>
+
+<p>📍 272 Aldergrove, BC, Canada</p>
+
+<p>📞 672-855-0219</p>
+
+<p>📧 cmchildcare2026@outlook.com</p>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="box">
+
+<h3>Find Us</h3>
+
+<iframe
+
+src="https://www.google.com/maps?q=272+aldergrove+bc&output=embed"
+
+width="100%"
+
+height="300"
+
+style="border:0; border-radius:10px;"
+
+allowfullscreen=""
+
+loading="lazy">
+
+</iframe>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Cuddly Moments Childcare LTD
+
+</footer>
+
+</body>
+
+</html>
